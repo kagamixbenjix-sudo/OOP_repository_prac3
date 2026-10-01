@@ -18,3 +18,21 @@ public class PatientRecord {
         this.appointmentDate = appointmentDate;
         this.doctorNotes = doctorNotes;
     }
+
+    // Public getters for receptionists and doctors (basic details)
+    public String getPatientName() {
+        return patientName;
+    }
+
+    public LocalDate getAppointmentDate() {
+        return appointmentDate;
+    }
+
+    // Doctor-level access methods
+    public String getMedicalHistory() {
+        return medicalHistory;
+    }
+
+    public void updateMedicalHistory(String newHistory) {
+        this.medicalHistory = newHistory;
+    }
