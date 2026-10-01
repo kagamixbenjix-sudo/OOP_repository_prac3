@@ -41,3 +41,11 @@ public class PatientRecord {
         System.out.println("Patient Name: " + patientName);
         System.out.println("Appointment Date: " + appointmentDate);
     }
+    public void displayDoctorView() {
+        System.out.println("--- Doctor View ---");
+        System.out.println("Patient Name: " + patientName);
+        System.out.println("Appointment Date: " + appointmentDate);
+        System.out.println("Medical History: " + medicalHistory);
+        System.out.println("Doctor Notes: " + doctorNotes);
+    }
+}
