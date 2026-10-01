@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         // Create Patient records
         PatientRecord patient1 = new PatientRecord("John Doe", "Hypertension, Asthma", LocalDate.now(), "Monitor blood pressure daily");
-        DoctorNote doctorNote1 = new DoctorNote("Jane Smith", "Type 2 Diabetes", LocalDate.now(), "Check blood sugar levels");
+        DoctorNote doctorNote1 = new DoctorNote("Jone Doe", "Type 2 Diabetes", LocalDate.now(), "Check blood sugar levels");
         FinancialRecord finance1 = new FinancialRecord("John Doe", 450.0);
 
         // 1. Receptionist access test
