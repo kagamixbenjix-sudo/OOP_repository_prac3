@@ -36,3 +36,8 @@ public class PatientRecord {
     public void updateMedicalHistory(String newHistory) {
         this.medicalHistory = newHistory;
     }
+    public void displayReceptionistView() {
+        System.out.println("--- Receptionist View ---");
+        System.out.println("Patient Name: " + patientName);
+        System.out.println("Appointment Date: " + appointmentDate);
+    }
